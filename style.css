@@ -11,7 +11,7 @@ body {
 /* Header/logo Title */
 .header {
   padding: 110px;
-  text-align: center;
+  text-align: left;
   background-image: url("./images/landscape-test-css.jpg");
   background-repeat: no-repeat;
 }
@@ -19,6 +19,7 @@ body {
 /* Increase the font size of the heading */
 .header h1 {
   font-size: 50px;
+  
 }
 
 /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
@@ -64,7 +65,7 @@ body {
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-  flex: 30%;
+  flex: 50%;
   background-color:  black;
   color: white;
   padding: 30px;
@@ -72,7 +73,7 @@ body {
 
 /* Main column */
 .main {   
-  flex: 70%;
+  flex: 50%;
   background-color: white;
   padding: 20px;
 }
@@ -94,7 +95,7 @@ body {
 .post {
   margin-bottom: 20px;
   padding: 20px;
-  background-color: #fff;
+  background-color: gray;
   border: 5px solid #ccc;
 }
 
@@ -106,7 +107,7 @@ body {
 
 /* Styles for the post image */
 img {
-  max-width: 100%;
+  max-width: 50%;
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
